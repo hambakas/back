@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
  
  app.get('/:number', function (req, res) { 
   var result = { 
-  data: parseInt(req.params.number, 10) * 3
+  data: parseInt(req.params.number, 10) * 2
   }; 
   res.send(result); 
 }); 
